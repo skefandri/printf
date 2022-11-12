@@ -1,6 +1,6 @@
 NAME = libftprintf.a
 
-SRCS_MAND = ft_itoa.c ft_printf.c ft_putchar.c ft_putnbrhex.c itoaunsigned.c ft_putnbrhexx.c ft_putstr.c
+SRCS_MAND = ft_itoa.c ft_printf.c ft_putchar.c ft_putnbrhex.c ft_itoaunsigned.c ft_putnbrhexx.c ft_putstr.c
 
 OBJS_MAND	= ${SRCS_MAND:.c=.o}
 
